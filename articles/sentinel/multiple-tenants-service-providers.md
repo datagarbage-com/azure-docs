@@ -23,7 +23,7 @@ If you’re a managed security service provider (MSSP) and you’re using [Azure
 
 ## Prerequisites
 - [Onboard Azure Lighthouse](../lighthouse/how-to/onboard-customer.md)
-- For this to work properly, your tenant must be registered to the Azure Sentinel Resource Provider on at least one subscription. If you have a registered Azure Sentinel in your tenant, you are ready to get started. If not, in the Azure portal, select **Subscriptions** followed by **Resource providers** and then search for `Microsoft.Security.Insights` and select **Register**.
+- For this to work properly, your tenant must be registered to the Azure Sentinel Resource Provider on at least one subscription. If you have a registered Azure Sentinel in your tenant, you are ready to get started. If not, in the Azure portal, select **Subscriptions** followed by **Resource providers** and then search for `Microsoft.SecurityInsights` and select **Register**.
    ![Check resource providers](media/multiple-tenants-service-providers/check-resource-provider.png)
 ## How to access Azure Sentinel from other tenants
 1. Under **Directory + subscription**, select the delegated directories, and the subscriptions where your customer’s Azure Sentinel workspaces are located.
